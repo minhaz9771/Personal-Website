@@ -1,0 +1,158 @@
+html, body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/* common css */
+.orange{
+    background: orangered;
+}
+.blue{
+    background: #363958;
+}
+/* .container{
+    width: 1170px;
+    margin: 0 auto;
+} */
+/* page css */
+header .menubar .menu{
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    /* background-color: orangered; */
+}
+header .menubar .menu ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+} 
+header .menubar .menu ul li{
+    display: inline-block;
+
+} 
+header .menubar .menu ul li a{
+    display: block;
+    text-decoration: none;
+    padding: 10px 15px;
+    color: #111111;
+}
+section{
+    height: 500px;
+    padding-bottom: 150px;
+}
+.about-me{
+    /* background-color: greenyellow; */
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.name-clr{
+    color: orangered;
+    font-size: 40px;
+    font-weight: bolder;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(orange, orangered);
+    padding: 15px 20px;
+    color: white;
+    border-radius: 5px;
+    font-size: 12px;
+}
+.half-width1{
+    width: 35%;
+    float: left;
+    margin-left: 10%;
+    padding-left: 2%;
+
+}
+.half-width1 img{
+    width: 100%;
+    /* padding-left: 10px; */
+}
+/* .half-width2 img{
+    width: 500px;
+    margin-left: 10%;
+    margin-top: -10%;
+
+}
+.half-width2{
+    width: 720px;
+    float: left;
+    margin-left: 10%;
+    padding-left: 2%;
+} */
+.project{
+    background-color: #ebebeb;
+}
+h3{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    padding-top: 50px;
+}
+.letst{
+    color: #363958;
+    font-weight: bold;
+    /* font-size: 20px; */
+}
+.work{
+    color: #F46060;
+    font-weight: bold;
+    /* font-size: 20px; */  
+}
+.Works{
+    text-align: center;
+}
+.cards{
+    display: inline-block;
+    width: 20%;
+    background-color: white;
+    margin-left: 25px;
+    margin-top: 50px;
+    padding: 15px;
+    border-radius: 5px;
+}
+.image img{
+    width: 100%;
+}
+.cards-2{
+    background-image: url("images/Group_33094_1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:264px;
+    width: 70%;
+    margin: 0 auto;
+    margin-top:200px
+}
+.image-2{
+    float: left;
+    /* position: relative;
+    bottom: 50px; */
+    margin-top: 6%;
+    margin-left: 15%;
+    
+}
+.image-3{
+    float: left;
+    margin-left: 35%;
+    margin-top: 12%
+}
+.h-1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: whitesmoke;
+}
+.h-3{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 15px;
+    color: rgb(153, 145, 153);
+}
+.h-4{
+    text-align: center;
+    margin-top: -50px;
+    font-size: 25px;
+    color: #363958;
+}
